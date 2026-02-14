@@ -1,41 +1,50 @@
 📝 NOTE.IT
 
 NOTE.IT is a full-stack blogging platform built using the MERN stack.
-It provides a secure admin panel for managing and publishing blog content, along with a clean and responsive interface for visitors to explore blogs and share their thoughts through comments.
-
-The platform focuses on structured content management, authentication, and smooth user experience.
+It provides a secure admin panel for managing blog content and a clean, responsive interface for visitors to explore posts and share their thoughts through comments.
 
 🚀 Key Features
 🔐 Admin Panel
 
-Secure authentication using JWT
+Secure Authentication using JWT
 
-Create, edit, and delete blog posts
+Create, Edit, and Delete blog posts
 
-Publish and unpublish blogs
+Publish / Unpublish blogs
 
-Upload blog images
+Image Upload Support
 
-Manage and review visitor comments
+Comment Management System
 
-Dashboard for content management
+Content Management Dashboard
 
 🌐 Visitor Side
 
-View all published blog posts
+Browse Published Blogs
 
-Read full blog details
+Read Full Blog Details
 
-Submit comments on blog posts
+Submit Comments
 
-Responsive and modern UI
-
-Global state management is handled using React Context API, allowing efficient data sharing across components without unnecessary prop drilling.
+Responsive & Modern UI
 
 🛠 Tech Stack
+🎨 Frontend
 
-Frontend:
-React (Vite), Tailwind CSS, Axios, React Context API
+React (Vite)
 
-Backend:
-Node.js, Express.js, MongoDB, Mongoose, JWT Authentication
+Tailwind CSS
+
+Axios
+
+React Context API (Global State Management)
+
+⚙️ Backend
+
+Node.js
+
+Express.js
+
+MongoDB & Mongoose
+
+JWT Authentication
