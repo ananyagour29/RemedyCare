@@ -1,0 +1,26 @@
+import React from 'react';
+import {useNavigate} from "react-router-dom";
+const BlogCard=({blog})=>{
+    const{title,description,category,image,_id}=blog;
+    const navigate=useNavigate();
+    return (
+        <div
+  onClick={() => navigate(`/blog/${_id}`)}
+  className='w-full rounded-lg overflow-hidden shadow-lg hover:scale-105 hover:shadow-gray-800/40 transition-transform duration-300 cursor-pointer bg-white'
+>
+  <img src={image} alt='' className='aspect-video w-full object-cover' />
+  
+  <span className='ml-5 mt-4 px-3 py-1 inline-block bg-cyan-700/20 rounded-full text-gray-800 text-xs'>
+    {category}
+  </span>
+  
+  <div className='p-5'>
+    <h5 className='mb-2 font-medium text-gray-900'>{title}</h5>
+    <p className='mb-3 text-xs text-gray-600' dangerouslySetInnerHTML={{"__html":description.slice(0,80)}}></p> 
+    {/* (so if description has <b> or <i>, it will render as bold/italic). */}
+  </div>
+</div>
+
+    )
+}
+export default BlogCard;
