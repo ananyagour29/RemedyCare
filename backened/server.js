@@ -12,7 +12,12 @@ const app=express(); //server create hogya
 // dotenv.config();
 await connectDB(); //database connect hogya
 // Middleware
-app.use(cors());
+// app.use(cors());
+app.use(cors({
+  origin: "https://note-it-3kpw.vercel.app", // your frontend URL
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
 app.use(express.json());
 app.get('/',(req,res)=>{ //route define hogya
     res.send("API is running...");
