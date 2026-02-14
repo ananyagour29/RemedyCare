@@ -3,6 +3,7 @@ import { comments_data } from '../../assets/QuickBlog-Assets/assets';
 // import CommentTableItem from '../../components/admin/CommentTableItem';
 import CommentTableItem from "../../components/admin/CommentTableItem";
 import { useAppContext } from '../../context/AppContext';
+import { toast } from 'react-hot-toast';
 const Comments=()=>{
     const [comments,setComments]=useState([]);
     // useState data ko rakhta aur badalta hai,

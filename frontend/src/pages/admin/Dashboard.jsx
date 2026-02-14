@@ -2,6 +2,7 @@ import React,{useState,useEffect} from 'react'
 import { assets ,dashboard_data} from '../../assets/QuickBlog-Assets/assets';
 import BlogTableItem from '../../components/admin/BlogTableItem';
 import { useAppContext } from '../../context/AppContext';
+import { toast } from 'react-hot-toast';
 const Dashboard=()=>{
     const[dashboardData,setDashboardData]=useState({
         blogs:0,
