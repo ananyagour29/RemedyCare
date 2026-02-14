@@ -12,13 +12,13 @@ const app=express(); //server create hogya
 // dotenv.config();
 await connectDB(); //database connect hogya
 // Middleware
-// app.use(cors());
-app.use(cors({
-  origin: "https://note-it-3kpw.vercel.app", // your frontend URL
-  methods: ["GET", "POST", "PUT", "DELETE"],
-   allowedHeaders: ["Content-Type", "Authorization"],
-  credentials: true
-}));
+app.use(cors());
+// app.use(cors({
+//   origin: "https://note-it-3kpw.vercel.app", 
+//   methods: ["GET", "POST", "PUT", "DELETE"],
+//    allowedHeaders: ["Content-Type", "Authorization"],
+//   credentials: true
+// }));
 // Handle preflight OPTIONS requests for all routes
 // app.options("*", cors());
 app.use(express.json());
