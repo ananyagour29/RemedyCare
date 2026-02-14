@@ -3,7 +3,7 @@
 NOTE.IT is a full-stack blogging platform built using the MERN stack.
 It provides a secure admin panel for managing blog content and a clean, responsive interface for visitors to explore posts and share their thoughts through comments.
 
-🚀 $Key Features#
+🚀#ey Features#
 🔐 Admin Panel
 
 Secure Authentication using JWT
