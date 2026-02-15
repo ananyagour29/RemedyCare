@@ -10,7 +10,10 @@ const Login=()=>{
       try{
         // const{data}=await axios.post('/api/admin/login',{email,password})
         const {data} = await axios.post(
-  'http://localhost:3000/api/admin/login',
+  // 'http://localhost:3000/api/admin/login',
+  // Correct
+"https://note-it-nu-eight.vercel.app/api/admin/login",
+
   { email, password }
 )
 // DELETE
