@@ -24,22 +24,22 @@ It is designed as a single-admin blogging system where content control remains c
 
 ### 👩‍💻 Admin Panel
 
--Secure authentication using JWT
--Protected admin routes
--Create, edit, and delete wellness articles
--Publish and unpublish articles
--Upload article images
--Manage visitor comments
--Dashboard for complete content management
+- Secure authentication using JWT
+- Protected admin routes
+- Create, edit, and delete wellness articles
+- Publish and unpublish articles
+- Upload article images
+- Manage visitor comments
+- Dashboard for complete content management
 
 ### 👥 Visitor Side
--User registration and login
--Browse all published articles
--View detailed remedy information
--Search wellness content
--Submit comments on articles
--Clean and responsive UI
--Secure user authentication
+- User registration and login
+- Browse all published articles
+- View detailed remedy information
+- Search wellness content
+- Submit comments on articles
+- Clean and responsive UI
+- Secure user authentication
 ---
 
 ## 🛠️ Tech Stack
