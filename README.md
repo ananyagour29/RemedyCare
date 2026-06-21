@@ -1,7 +1,7 @@
-# NOTE.IT 📝
+# RemedyCare
 
-NOTE.IT is a full-stack blogging platform built using the MERN stack.  
-It provides a secure admin panel for managing blog content and a responsive interface for visitors to explore blogs and submit comments.
+RemedyCare is a full-stack wellness information platform built using the MERN stack.
+It provides a secure admin panel for managing remedy articles along with a responsive interface for visitors to explore information and submit comments.
 
 ---
 
@@ -24,22 +24,22 @@ It is designed as a single-admin blogging system where content control remains c
 
 ### 👩‍💻 Admin Panel
 
-- Secure authentication using JWT
-- Protected admin routes
-- Create, edit, and delete blog posts
-- Publish and unpublish blogs
-- Upload blog images
-- Manage visitor comments
-- Dashboard for complete content management
+-Secure authentication using JWT
+-Protected admin routes
+-Create, edit, and delete wellness articles
+-Publish and unpublish articles
+-Upload article images
+-Manage visitor comments
+-Dashboard for complete content management
 
 ### 👥 Visitor Side
-
-- Browse all published blogs
-- View full blog details
-- Submit comments on blog posts
-- Clean and responsive UI
-- No login required for reading blogs
-
+-User registration and login
+-Browse all published articles
+-View detailed remedy information
+-Search wellness content
+-Submit comments on articles
+-Clean and responsive UI
+-Secure user authentication
 ---
 
 ## 🛠️ Tech Stack
@@ -57,13 +57,4 @@ It is designed as a single-admin blogging system where content control remains c
 - Mongoose
 - JWT Authentication
 
----
-## 🎯 Purpose of the Project
 
-NOTE.IT was built to demonstrate:
-
-- Complete MERN stack development
-- Role-based access control (Admin vs Visitor)
-- Secure API handling
-- Clean UI/UX design
-- Deployment-ready full-stack architecture
