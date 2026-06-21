@@ -23,7 +23,7 @@ const Layout = () => {
           className="text-2xl sm:text-3xl font-bold cursor-pointer text-cyan-500"
           onClick={() => navigate('/')}
         >
-          NOTE.IT
+          RemedyCare
         </h1>
 
         <div className="flex items-center gap-3">
