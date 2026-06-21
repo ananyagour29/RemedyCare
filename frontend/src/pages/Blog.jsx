@@ -122,7 +122,7 @@ const Blog = () => {
 <img
   src={data.image}
   alt=""
-  className="rounded-3xl mb-5 w-full max-w-2xl mx-auto h-auto object-cover"
+  className="rounded-3xl mb-5 w-full max-w-2xl mx-auto shadow-lg"
 />
         <div
           className="rich-text max-w-3xl mx-auto"
