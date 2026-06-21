@@ -1,10 +1,23 @@
-// // DELETE
-// import express from "express";
-// import { registerUser, loginUser } from "../controllers/userController.js";
+import express from "express";
+import {
+  sendOtp,
+  verifyOtp,
+  logoutUser
+} from "../controllers/userController.js";
 
-// const userRouter = express.Router();
+const userRoutes = express.Router();
 
-// userRouter.post("/register", registerUser);
-// userRouter.post("/login", loginUser);
+/* =====================
+   USER AUTH ROUTES
+===================== */
 
-// export default userRouter;
+// Send OTP
+userRoutes.post("/send-otp", sendOtp);
+
+// Verify OTP & Login
+userRoutes.post("/verify-otp", verifyOtp);
+
+// Logout Device
+userRoutes.post("/logout", logoutUser);
+
+export default userRoutes;

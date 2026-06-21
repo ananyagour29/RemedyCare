@@ -58,7 +58,7 @@ export const assets = {
     dashboard_icon_3,
     dashboard_icon_4,
 }
-export const blogCategories = ['All', 'German Notes', 'Life Lessons', 'Cultural Insights', 'Food Science'];
+export const blogCategories = ['All', 'Daily Discoveries', 'Food & Recipe', 'tech Explained'];
 export const blog_data = [
     {
         "_id": "6805ee7dd8f584af5da78d37",
