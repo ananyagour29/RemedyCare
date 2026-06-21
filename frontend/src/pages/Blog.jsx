@@ -114,12 +114,16 @@ const Blog = () => {
       </div>
 
       <div className="mx-5 max-w-5xl md:mx-auto my-10 mt-6">
-        <img
+        {/* <img
           src={data.image}
           alt=""
           className="rounded-3xl mb-5"
-        />
-
+        /> */}
+<img
+  src={data.image}
+  alt=""
+  className="rounded-3xl mb-5 w-full max-w-2xl mx-auto h-auto object-cover"
+/>
         <div
           className="rich-text max-w-3xl mx-auto"
           dangerouslySetInnerHTML={{ __html: data.description }}
