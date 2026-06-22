@@ -45,9 +45,6 @@ className="w-full rounded-lg overflow-hidden shadow-lg hover:scale-105 hover:sha
   {title}
 </h5>
 
-<p className="text-[10px] text-cyan-700 mb-2">
-  Latest Blog
-</p>
     <p
       className="mb-3 text-xs text-gray-600"
       dangerouslySetInnerHTML={{
