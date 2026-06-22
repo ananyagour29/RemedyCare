@@ -28,12 +28,7 @@ const Layout = () => {
 
         <div className="flex items-center gap-3">
 
-          {/* <button
-            onClick={() => navigate('/')}
-            className="text-sm px-5 py-2 border border-cyan-600 text-cyan-600 rounded-full cursor-pointer hover:bg-cyan-50"
-          >
-            View Website
-          </button> */}
+          
 
           <button
             onClick={logout}
