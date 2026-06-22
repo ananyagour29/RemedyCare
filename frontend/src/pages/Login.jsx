@@ -138,7 +138,7 @@ const Login = () => {
               onClick={() => navigate("/admin")}
               className="text-cyan-600 hover:underline"
             >
-              Are you an admin? Login here
+              Are you an admin? Login herer
             </button>
           </div>
         </div>
