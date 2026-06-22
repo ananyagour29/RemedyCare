@@ -38,10 +38,16 @@ className="w-full rounded-lg overflow-hidden shadow-lg hover:scale-105 hover:sha
   </div>
 
   <div className="p-5">
-    <h5 className="mb-2 font-medium text-gray-900">
+    {/* <h5 className="mb-2 font-medium text-gray-900">
       {title}
-    </h5>
+    </h5> */}
+<h5 className="mb-2 font-medium text-gray-900">
+  {title}
+</h5>
 
+<p className="text-[10px] text-cyan-700 mb-2">
+  Latest Blog
+</p>
     <p
       className="mb-3 text-xs text-gray-600"
       dangerouslySetInnerHTML={{
